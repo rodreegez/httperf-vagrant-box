@@ -1,6 +1,10 @@
 For this experement you will need:
 
 * VirtualBox ~> [4.1](http://download.virtualbox.org/virtualbox/4.1.2/VirtualBox-4.1.2-73507-OSX.dmg).
+    "If you have no choice but to use an earlier version of VirtualBox, 
+    you can use earlier versions of Vagrant which work with them. For 
+    VirtualBox 4.0, this is the 0.7.x line, and for VirtualBox 3.2.x, 
+    this is the 0.6.x line." - Do this at yr own risk.
 * One specialised, standardised, scientificised owl.
 * bundler
 
