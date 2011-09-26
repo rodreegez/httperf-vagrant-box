@@ -12,8 +12,15 @@ Then:
 
 To test your server, try something like:
 
-    httperf --timeout=5 --client=0/1 --server=<your-ip-here> --port=8080 --uri=/?value=benchmarks --rate=100 --send-buffer=4096 --recv-buffer=16384 --num-conns=50000 --num-calls=10
+    httperf --timeout=5 --client=0/1 --server=<your-ip-here> --port=8040 --uri=/?value=benchmarks --rate=100 --send-buffer=4096 --recv-buffer=16384 --num-conns=50000 --num-calls=10
 
 replacing `<your-ip-here>` with the local IP addy of your host machine. You can find that out by running `ifconfig`.
+
+## Workflow
+
+* spin up your server on the host machine on port 8040
+* run `ifconfig` and make a note of your IP address (something like `192.168.0.103`)
+* in a new tab/split run `vagrant ssh` to access the vagrant box
+* run the command above, subbing the IP address as directed
 
 Good Luck!
