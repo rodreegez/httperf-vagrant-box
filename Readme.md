@@ -28,4 +28,7 @@ replacing `<your-ip-here>` with the local IP addy of your host machine. You can 
 * run the command above, subbing the IP address as directed
 * when you're done, `exit` the VM and tear it down with `vagrant destroy` 
 
+## Helpful Screencast
+[Is helpful](http://zachholman.com/screencast/vagranception/).
+
 Good Luck!
