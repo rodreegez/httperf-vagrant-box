@@ -11,7 +11,7 @@ For this experement you will need:
 Then:
 
 * `bundle install`
-* `vagrant up`
+* `vagrant up` #=> this will download the box if you don't have it. The box is really big. Not Xcode big, but big.
 * `vagrant ssh` #=> ssh'd to a box with httperf already installed
 
 To test your server, try something like:
